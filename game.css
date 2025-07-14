@@ -1,0 +1,36 @@
+:root{ 
+    --pic: url('https://cdn.discordapp.com/avatars/1162922822096650280/a1d2a8df9411f6334e09f480adcc58b5.png?size=1024');
+}
+
+#classPreviewCanvas {
+  filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));
+}
+
+#uiBase.onMenu {
+    backdrop-filter: blur(3px);
+}
+
+.leaderNameM {
+font-family: Georgia, serif;
+}
+
+#pollfishIndicator{display:none!important}
+
+#bottomLeftClassImg {
+    border-radius: 5px !important;
+    content: var(--pic);
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    visibility: visible !important;
+}
+
+#bottomLeftTeamType,#bottomLeftTeamName,#bottomLeftPlayer,#bottomLeftPlayerLeft,#bottomLeftPlayerRight,#bottomLeftTeamType {
+    background-color: transparent
+}
+
+#bottomLeftChallIcon,#bottomLeftTeamType,#bottomLeftTeamName {
+    display: none !important;
+}
