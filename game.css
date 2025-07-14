@@ -15,22 +15,3 @@ font-family: Georgia, serif;
 }
 
 #pollfishIndicator{display:none!important}
-
-#bottomLeftClassImg {
-    border-radius: 5px !important;
-    content: var(--pic);
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    width: 100px;
-    height: 100px;
-    visibility: visible !important;
-}
-
-#bottomLeftTeamType,#bottomLeftTeamName,#bottomLeftPlayer,#bottomLeftPlayerLeft,#bottomLeftPlayerRight,#bottomLeftTeamType {
-    background-color: transparent
-}
-
-#bottomLeftChallIcon,#bottomLeftTeamType,#bottomLeftTeamName {
-    display: none !important;
-}
