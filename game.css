@@ -6,12 +6,8 @@
   filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));
 }
 
-#uiBase.onMenu {
-    backdrop-filter: blur(3px);
-}
-
 .leaderNameM {
-font-family: Georgia, serif;
+   font-family: Georgia, serif;
 }
 
 #pollfishIndicator{display:none!important}
